@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#welcome {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Space Mono', serif;
+  margin: auto;
+  margin-top: auto;
+  margin-right: 80px;
+}
+
+#profile {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  margin-left: 810px;
+  box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgb(246, 245, 244, 0.12) 0px -12px 30px, rgb(246, 245, 244, 0.12) 0px 4px 6px, rgb(222, 221, 218, 0.17) 0px 12px 13px, rgb(192, 191, 188, 0.09) 0px -3px 5px;
+}
+
+#things {
+  color: whitesmoke;
+  text-align: right;
+  font-size: 24px;
+  font-family: 'Space Mono', serif;
+}
+
+#liste {
+  list-style-position: inside;
+  border: 1px solid whitesmoke;
+  box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgb(246, 245, 244, 0.12) 0px -12px 30px, rgb(246, 245, 244, 0.12) 0px 4px 6px, rgb(222, 221, 218, 0.17) 0px 12px 13px, rgb(192, 191, 188, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+  text-align: right;
+  padding: 10px;
+  width: 600px;
+  float: right;
+}
+
+#name {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 24px;
+  margin: auto;
+  margin-top: auto;
+  margin-right: 80px;
+}
+
+#infos {
+  margin-top: -40px;
+  text-align: left;
+  color: whitesmoke;
+  font-size: 24px;
+  font-family: 'Space Mono', serif;
+}
+
+#infos-list {
+  list-style-position: inside;
+  border: 1px solid whitesmoke;
+  box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgb(246, 245, 244, 0.12) 0px -12px 30px, rgb(246, 245, 244, 0.12) 0px 4px 6px, rgb(222, 221, 218, 0.17) 0px 12px 13px, rgb(192, 191, 188, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+  text-align: left;
+  padding: 10px;
+  width: 550px;
+  float: left;
+  margin-top: 23px;
+}
+
+#info {
+  margin-top: -64px;
+}
+
+#discord {
+  height: 60px;
+  width: 60px;
+  object-fit: scale-down;
+  display: block;
+  margin: auto;
+  margin-top: 400px;
+  margin-right: 1050px;
+
+}
